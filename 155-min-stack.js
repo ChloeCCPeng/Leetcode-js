@@ -28,3 +28,6 @@ class MinStack {
         return this.minStack[this.minStack.length-1];
     }
 }
+
+// Time complexity: O(1)
+// Space complexity: O(n)
