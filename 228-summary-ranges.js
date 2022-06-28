@@ -3,7 +3,6 @@
  * @return {string[]}
  */
 // var summaryRanges = function(nums) {
-    
 // };
 
 const summaryRanges = nums => {
