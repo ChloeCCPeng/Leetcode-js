@@ -37,5 +37,5 @@
     return result;
 };
 
-// time complexity: O(n)
-// space complexity: O(n)
+// time complexity: O(n) because we traverse every node in the tree
+// space complexity: O(n) recursive stack
