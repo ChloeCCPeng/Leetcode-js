@@ -1,10 +1,10 @@
 /**
  * @param {number[]} nums
  * @return {string[]}
+ 
+var summaryRanges = function(nums) {
+};
  */
-// var summaryRanges = function(nums) {
-    
-// };
 
 const summaryRanges = nums => {
     let result = [];
