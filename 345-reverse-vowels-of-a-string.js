@@ -3,8 +3,8 @@
  * @return {string}
  */
  function reverseVowels(s) {
-    const vowels = {};
-    for (const char of "aeiouAEIOU") {
+    let vowels = {};
+    for (let char of "aeiouAEIOU") {
         vowels[char] = true;
     }
     
