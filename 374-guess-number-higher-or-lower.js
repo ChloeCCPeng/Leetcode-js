@@ -15,3 +15,6 @@ const guessNumber = (n) => {
         }
     }    
 };
+
+// time complexity: O(log2 n) because of binary search
+// space complexity: O(1) no extra space is used
