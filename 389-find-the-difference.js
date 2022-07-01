@@ -17,3 +17,6 @@ var findTheDifference = function(s, t) {
         }
     }
 };
+
+// time
+// space
