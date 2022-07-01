@@ -18,5 +18,5 @@ var findTheDifference = function(s, t) {
     }
 };
 
-// time
-// space
+// time complexity: O()
+// space complexity: O()
