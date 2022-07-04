@@ -1,3 +1,4 @@
+ 
  var readBinaryWatch = function(turnedOn) {
     let time = [];
     
