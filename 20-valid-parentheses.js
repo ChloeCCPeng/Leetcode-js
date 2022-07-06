@@ -8,7 +8,6 @@ var isValid = function(s) {
     return s === "";
   };
 
-  
 //  var isValid = function(s) {
 //     const hashMap = {"(":")", "[":"]", "{":"}"};
 //     const stack = [];
