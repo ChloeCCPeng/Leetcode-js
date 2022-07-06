@@ -1,5 +1,4 @@
-
- var findDisappearedNumbers = function (nums) {
+var findDisappearedNumbers = function (nums) {
 
     let result = [];
     let nums2 = [];
