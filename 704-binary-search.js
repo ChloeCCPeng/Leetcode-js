@@ -20,3 +20,6 @@ var search = function(nums, target) {
     }
     // return -1
 };
+
+// time complexity: o(log n)
+// space complexity: o(1)
