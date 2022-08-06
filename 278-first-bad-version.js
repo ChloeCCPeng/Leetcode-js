@@ -1,25 +1,28 @@
+ * @return {boolean} whether the version is bad
+ * isBadVersion = function(version) {
+ *     ...
+ * };
+ */
+
+/**
+ * @param {function} isBadVersion()
+ * @return {function}
+ */
 var solution = function(isBadVersion) {
     /**
      * @param {integer} n Total versions
      * @return {integer} The first bad version
      */
-    return function(n) {        
-        let ceiling = n
-        let floor = 1
-        let firstBadVersion = -1
+    return function(n) {
+        let last = n;
+        let first = 1
+        let fristBadVersion = -1
         
-        while (floor <= ceiling) {
-            const middle = Math.floor((ceiling + floor) / 2)
-            
+        while (first <= last) {
+            const middle = Math.floor((first+last)/2)
             if (isBadVersion(middle)) {
                 
-                firstBadVersion = middle
-                ceiling = middle - 1
-            } else  {                
-                floor = middle + 1
             }
         }
-        
-        return firstBadVersion
     };
 };
