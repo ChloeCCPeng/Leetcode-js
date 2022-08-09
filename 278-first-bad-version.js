@@ -17,6 +17,7 @@
 //     };
 // };
 
+
 var solution = function(isBadVersion) {
     return function(n) {
       let r = n;
