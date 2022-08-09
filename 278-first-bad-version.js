@@ -35,7 +35,6 @@ var solution = function(isBadVersion) {
     };
 };
 
-
 // function solution(isBadVersion) {
 //   return function(n) {
 //     var left = 0;
