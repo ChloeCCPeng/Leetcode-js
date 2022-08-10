@@ -17,3 +17,7 @@ var searchInsert = function(nums, target) {
     }
     return left
 };
+
+
+// time complexity: o(log n)
+// space complexity: 
