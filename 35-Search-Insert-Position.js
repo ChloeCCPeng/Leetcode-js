@@ -20,4 +20,4 @@ var searchInsert = function(nums, target) {
 
 
 // time complexity: o(log n)
-// space complexity: 
+// space complexity: o(log n)
