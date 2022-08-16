@@ -17,7 +17,6 @@ var sortedSquares = function(A) {
   return res;
 };
 
-
 var sortedSquares = function(nums) {
     // use two pointers
     // create a new array
