@@ -1,4 +1,4 @@
-
+// solution 1
 // var sortedSquares = function(nums) {
 //     // use two pointers
 //     // create a new array
