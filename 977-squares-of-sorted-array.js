@@ -21,7 +21,7 @@
 // };
 
 
-// option 2
+// solution 2
 // var sortedSquares = function (A) {
 // 	A = A.map(x => x * x);
 // 	A.sort((a, b) => a - b);
