@@ -29,6 +29,8 @@
 // 	return A;
 // };
 
+
+
 // solution 3
 var sortedSquares = function(A) {
     return A.map(val => val*val).sort((a,b) =>  a -b)
