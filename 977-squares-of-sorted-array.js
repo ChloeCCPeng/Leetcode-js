@@ -21,15 +21,15 @@
 // };
 
 
+// option 2
+// var sortedSquares = function (A) {
+// 	A = A.map(x => x * x);
+// 	A.sort((a, b) => a - b);
 
-var sortedSquares = function (A) {
-	A = A.map(x => x * x);
-	A.sort((a, b) => a - b);
-
-	return A;
-};
-
-
-// var sortedSquares = function(A) {
-//     return A.map(val => val*val).sort((a,b) =>  a -b)
+// 	return A;
 // };
+
+// option 3
+var sortedSquares = function(A) {
+    return A.map(val => val*val).sort((a,b) =>  a -b)
+};
